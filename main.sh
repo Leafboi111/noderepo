@@ -2,6 +2,23 @@ clear
 
 tput setaf 1
 echo "WARNING: This is an EXPERIMENTAL feature. Use at your own risk."
+echo "Enter the repo in the format of 'https://github.com/user/repo'."
+echo "Things might break, as the repo you enter might be unofficial."
+
+confirm() {
+    # call with a prompt string or use a default
+    read -r -p "${1:-Continue? [y/N]} " response
+    case "$response" in
+        [yY][eE][sS]|[yY]) 
+            true
+            ;;
+        *)
+            false
+            exit 0;;
+    esac
+}
+
+
 
 read -p "Repo you want to add: " repo
 
