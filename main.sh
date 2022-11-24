@@ -26,4 +26,4 @@ tput setaf 7
 
 read -p "Repo you want to add: " repo
 
-echo " $repo" >> data/applist.txt
+echo " $repo" >> data/repolist.txt
