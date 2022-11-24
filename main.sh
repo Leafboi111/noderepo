@@ -18,7 +18,7 @@ confirm() {
     esac
 }
 
-
+confirm
 
 read -p "Repo you want to add: " repo
 
