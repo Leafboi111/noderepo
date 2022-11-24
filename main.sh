@@ -2,7 +2,8 @@ clear
 
 tput setaf 1
 echo "WARNING: This is an EXPERIMENTAL feature. Use at your own risk."
-echo "Enter the repo in the format of 'https://github.com/user/repo'. Only bash and python supported."
+echo "Enter the repo in the format of 'https://github.com/user/repo'."
+echo "Only bash and python supported."
 echo "It is best that the repo follows 'https://github.com/leafboi111/FooApp' as a template."
 echo "Things might break, as the repo you enter most likely is unofficial."
 
