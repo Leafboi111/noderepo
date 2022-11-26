@@ -1,6 +1,7 @@
 clear
 
 tput setaf 1
+echo "noderepo is a repository manager that can add unofficial github repos."
 echo "WARNING: This is an EXPERIMENTAL feature. Use at your own risk."
 echo "Enter the repo in the format of 'user/repo' assuming 'https://github.com/'."
 echo "Only bash and python supported."
